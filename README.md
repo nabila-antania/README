@@ -1,8 +1,9 @@
 # README
-# Modul Praktikum: Web Service REST untuk Manajemen Buku
-
+# Web Service REST untuk Manajemen movies
+## Nabila Antania Putri Anjani
+## 21.01.55.0003
 ## Tujuan
-Membuat dan menguji web service REST untuk manajemen buku menggunakan PHP dan MySQL.
+Membuat dan menguji web service REST untuk manajemen movies menggunakan PHP dan MySQL.
 
 ## Alat yang Dibutuhkan
 1. XAMPP (atau server web lain dengan PHP dan MySQL)
@@ -220,6 +221,7 @@ switch ($method) {
 
 ### Kesimpulan
 Dalam praktikum ini, Anda telah berhasil membuat web service REST untuk manajemen buku menggunakan PHP dan MySQL. Anda juga telah belajar cara menguji API menggunakan Postman. Praktik ini memberikan dasar yang kuat untuk pengembangan API RESTful lebih lanjut.
+
 ### hasil 
 ![Screenshot (18)](https://github.com/user-attachments/assets/f9dd812e-a6a6-4ba3-933b-64adf4a47ce0) (get)
 ![Screenshot (19)](https://github.com/user-attachments/assets/000df002-73f9-46c7-a1c4-30f25df794ef) (get1)
