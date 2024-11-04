@@ -1,0 +1,501 @@
+{
+	"info": {
+		"_postman_id": "42e1964a-7311-4377-8266-8d1fc9e62860",
+		"name": "latihan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39430019"
+	},
+	"item": [
+		{
+			"name": "https://localhost/movies/movies.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/movies/movies.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"movies",
+						"movies.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://localhost/movies/movies.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/movies/movies.php",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"movies",
+								"movies.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:18:32 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "342"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Perewangan\",\n        \"genre\": \"Horor\",\n        \"year\": 2024,\n        \"rating\": 8\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Absolution\",\n        \"genre\": \"Action\",\n        \"year\": 2024,\n        \"rating\": 6\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Dilan 1990\",\n        \"genre\": \"Roman\",\n        \"year\": 2018,\n        \"rating\": 9\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Asih\",\n        \"genre\": \"Horor\",\n        \"year\": 2018,\n        \"rating\": 7\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Jailangkung\",\n        \"genre\": \"Horor\",\n        \"year\": 2017,\n        \"rating\": 9\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://localhost/movies/movies.php/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/movies/movies.php/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"movies",
+						"movies.php",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://localhost/movies/movies.php/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/movies/movies.php/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"movies",
+								"movies.php",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:19:33 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "68"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"Perewangan\",\n    \"genre\": \"Horor\",\n    \"year\": 2024,\n    \"rating\": 8\n}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost/movies/movies.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Rumor\",\r\n    \"genre\": \"Drama\",\r\n    \"year\": 2024,\r\n    \"rating\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/movies/movies.php",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"movies",
+						"movies.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://localhost/movies/movies.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Rumor\",\r\n    \"genre\": \"Drama\",\r\n    \"year\": 2024,\r\n    \"rating\": 7\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/movies/movies.php",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"movies",
+								"movies.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:21:56 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "37"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"movies created\",\n    \"id\": \"7\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost/movies/movies.php/7",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Rumor 2\",\r\n    \"genre\": \"Drama\",\r\n    \"year\": 2024,\r\n    \"rating\": 8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost/movies/movies.php/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"movies",
+						"movies.php",
+						"7"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://localhost/movies/movies.php/7",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Rumor 2\",\r\n    \"genre\": \"Drama\",\r\n    \"year\": 2024,\r\n    \"rating\": 8\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost/movies/movies.php/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"movies",
+								"movies.php",
+								"7"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:23:50 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"movies updated\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://localhost/movies/movies.php/7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost/movies/movies.php/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"movies",
+						"movies.php",
+						"7"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://localhost/movies/movies.php/7",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost/movies/movies.php/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"movies",
+								"movies.php",
+								"7"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:24:27 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.1"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "28"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"movies deleted\"\n}"
+				}
+			]
+		}
+	]
+}
